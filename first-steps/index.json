@@ -1,0 +1,18 @@
+{
+  "title": "First Steps",
+  "description": "Learn the first steps with Vim",
+  "details": {
+    "intro": {
+      "text": "intro.md"
+    },
+    "steps": [
+      {
+        "title": "Open, edit and close a file",
+        "text": "step1/text.md"
+      }
+    ]
+  },
+  "backend": {
+    "imageid": "ubuntu20.04"
+  }
+}
