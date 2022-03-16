@@ -8,7 +8,6 @@ This is the repository for the scenarios available on [killercoda.com/vim](https
 * Show line numbers
 * Copy&Paste
 * Shift&Indent
-* Best CKS|CKA|CKAD settings
 * ...
 
 ## Contribute
