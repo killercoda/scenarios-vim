@@ -9,7 +9,7 @@ First create or open (if already exists) file `.vimrc`:
 vim ~/.vimrc
 ```{{exec}}
 
-Now enter (in insert-mode activated with `i`{{}}) the following lines, **you need to rember these**:
+Now enter (in insert-mode activated with `i`{{}}) the following lines, **you need to remember these**:
 
 ```plain
 set expandtab
