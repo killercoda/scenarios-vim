@@ -1,6 +1,6 @@
 {
-  "title": "First Steps",
-  "description": "Learn the first steps with Vim",
+  "title": "CKS CKA CKAD Setup",
+  "description": "How to setup Vim for the K8s exams",
   "details": {
     "intro": {
       "text": "intro.md",
@@ -8,7 +8,7 @@
     },
     "steps": [
       {
-        "title": "Open, edit and close a file",
+        "title": "Persist Vim settings in .vimrc",
         "text": "step1/text.md"
       }
     ]
