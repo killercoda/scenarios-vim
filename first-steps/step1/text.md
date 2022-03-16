@@ -7,7 +7,7 @@ Let's learn your first steps with the console based editor Vim!
 vim my-file
 ```{{exec}}
 
-2\. Next type `i` to get into the intert-mode. The mode is shown on bottom left
+2\. Next type `i` to get into the insert-mode. The mode is shown on bottom left
 
 3\. Now type any text, like `hello world`!
 
