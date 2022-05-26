@@ -1,6 +1,6 @@
 {
-  "title": "First Steps",
-  "description": "Learn the first steps with Vim",
+  "title": "Basic Operations",
+  "description": "Basic Operations for using Vim effectivly",
   "details": {
     "intro": {
       "text": "intro.md",
@@ -8,11 +8,11 @@
     },
     "steps": [
       {
-        "title": "Open, edit and close a file",
+        "title": "Moving around with keyboard shortcuts",
         "text": "step1/text.md"
       },
       {
-        "title": "Edit and close a file like a Vim master",
+        "title": "Search and replace",
         "text": "step2/text.md"
       }
     ]
