@@ -12,7 +12,11 @@
         "text": "step1/text.md"
       },
       {
-        "title": "Search and replace",
+        "title": "Search in Vim",
+        "text": "step2/text.md"
+      },
+      {
+        "title": "Find and replace",
         "text": "step2/text.md"
       }
     ]

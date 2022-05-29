@@ -4,6 +4,8 @@ If you just want to quit without saving, just type `:q`
 
 type `q!` if you want to quit without saving your changes.
 
+&nbsp;
+
 Open the file that you just created:
 
 ```plain
@@ -20,6 +22,8 @@ To get into command-mode press `Esc`{{}}
 To save the file we need to type `:wq` and confirm with `Enter`{{}}
 
 This will close Vim and save the file same as `:x`
+
+&nbsp;
 
 Open the file again:
 

@@ -2,6 +2,8 @@ Vim has a lot of functionality to make editing very easy for users.
 
 Let's learn your first steps with the console based editor Vim!
 
+&nbsp;
+
 First open a new file:
 
 ```plain
