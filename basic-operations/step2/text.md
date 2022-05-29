@@ -9,7 +9,6 @@ Open the file again that you created:
 ```plain
 vim new-file
 ```{{exec}}
-```
 
 **Basic Search**
 
@@ -30,13 +29,15 @@ You can use up/down arrow keys when you are in search mode to display your previ
 **Search Entire Word**
 
 As you may notice, search command looks for a string pattern, not the entire word
-to search the whole word, you need to enter `/\<line\>` to find `line` in the file
 
-Vim allows us to search the current word that the cursor is pointing
+To search the whole word, you need to enter `/\<line\>` to find `line` in the file
+
+Vim allows us to start a search for the current word that the cursor is pointing
 
 Type `/` to enable search mode and type `li`
 
 Now, press `*` (asterisk) to search the entire word which is `line` in our case
+
 You can also press `#` (hash) to search backwards
 
 &nbsp;

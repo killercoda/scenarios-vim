@@ -9,7 +9,6 @@ First open a new file:
 ```plain
 vim my-file
 ```{{exec}}
-```
 
 Next type `i` to get into the insert-mode. The mode is shown on bottom left
 

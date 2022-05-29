@@ -17,7 +17,6 @@ Open the file that you created:
 ```plain
 vim new-file
 ```{{exec}}
-```
 
 In normal mode, type `:s/line/row/`
 
@@ -41,7 +40,7 @@ Type `%s/line/row/g` and notice that all occurrences of `line` have been replace
 
 To ignore case in your search, use the `i` flag:
 
-Type `:%s/this/that/gi` to replace all occurences of `(T/t)his` case insentively with `that`
+Type `:%s/this/that/gi` to replace all occurences of `this` case insensitively with `that`
 
 &nbsp;
 
@@ -53,7 +52,7 @@ Type `:5,10s/line/LINE/g` to replace all occurrences of `line` with `LINE`
 
 `.` (dot character) indicates the current line and `$` the last line
 
-Type `.$s/this/those/i` to replace all occurrences of `(T/t)his` with `those` from the current line to the end of the file. `i` is added to ignore case in the search
+Type `.$s/this/those/i` to replace all occurrences of `this` with `those` from the current line to the end of the file. `i` is added to ignore case in the search
 
 &nbsp;
 
@@ -64,15 +63,19 @@ First type `:q!` to quit without saving and open the file again with its initial
 ```plain
 vim new-file
 ```{{exec}}
-```
+
+&nbsp;
 
 **Case:** Get to line 50 and replace all occurrences of `This` with `That` starting from the current line up to next 5 line
 
-Type `:50` to get line 50 and type `:.,+5s/this/That/i`
+Type `:50` to get to line 50 and type `:.,+5s/this/That/i`
 
-**Case:** Comment out the lines between 20-30 (in Vim you put a `#` in the beginning of a line to comment out as in python) This is particularly important when you are dealing with configuration files in linux
+**Case:** Comment out the lines between 20-30 (in Vim you put a `#` in the beginning of a line to comment out as in python)
+
+This is particularly important when you are dealing with configuration files in linux
 
 Type `20,30s/^/# /` as `^` denotes the beginning of a line
+
 Type `20,30s/^# //` to uncomment them
 
 

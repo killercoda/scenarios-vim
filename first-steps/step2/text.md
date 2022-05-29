@@ -11,7 +11,6 @@ Open the file that you just created:
 ```plain
 vim my-file
 ```{{exec}}
-```
 
 Type `o` to insert new line **below** the current line by also switching to insert-mode.
 
@@ -30,16 +29,16 @@ Open the file again:
 ```plain
 vim my-file
 ```{{exec}}
-```
 
 press `Esc`{{}} and type `:q` without making any changes to quit.
 
-Once again, open the file and make some changes. We want to quit this time with our changes to be ignored. You'll need to use it often when you accidentally changed in a file.
+Once again, open the file and make some changes. We want to quit this time with our changes to be ignored. 
+
+You'll need to use it often when you accidentally changed in a file.
 
 ```plain
 vim my-file
 ```{{exec}}
-```
 
 Type `O` this time to insert new line **above** the current line and switching to insert-mode.
 
@@ -47,4 +46,4 @@ Now add some text and press `Esc`{{}} and type `:q`
 
 Vim doesn't let you to quit because you didn't save your changes. 
 
-type `:q!` to override and quit. Any change you made will be ignored.
+type `:q!` to override and quit. Any changes you've made will be ignored.
