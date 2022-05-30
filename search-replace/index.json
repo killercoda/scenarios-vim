@@ -1,16 +1,12 @@
 {
-  "title": "Basic Operations",
-  "description": "Basic Operations for using Vim effectivly",
+  "title": "Search and Replace",
+  "description": "Search and Replace Operations in Vim",
   "details": {
     "intro": {
       "text": "intro.md",
       "background": "background.sh"
     },
     "steps": [
-      {
-        "title": "Moving around with keyboard shortcuts",
-        "text": "step1/text.md"
-      },
       {
         "title": "Search in Vim",
         "text": "step2/text.md"
