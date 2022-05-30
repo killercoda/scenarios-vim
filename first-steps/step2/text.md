@@ -1,6 +1,6 @@
 You can also type `:wq` to save and quit which is equal to `:x`
 
-If you just want to quit without saving, just type `:q`
+If you just want to quit, just type `:q`
 
 type `q!` if you want to quit without saving your changes.
 
@@ -40,7 +40,7 @@ You'll need to use it often when you accidentally changed in a file.
 vim my-file
 ```{{exec}}
 
-Type `O` this time to insert new line **above** the current line and switching to insert-mode.
+Type `O` (capital `o`) this time to insert new line **above** the current line and switching to insert-mode.
 
 Now add some text and press `Esc`{{}} and type `:q`
 

@@ -2,9 +2,17 @@ Searching text in a file is a very common task.
 
 Vim allows you to search for a file by using `/` (forward slash) to search forward and `?` (question mark) to search backward in a file. Let's try it out.
 
+**Important Note:** you can undo whenever you need it in normal mode by pressing `u`
+
 &nbsp;
 
-Open the file again that you created:
+First generate a file to work on with 100 lines:
+
+```plain
+for i in {1..100}; do echo "This is line $i" >> new-file; done
+```{{exec}}
+
+Open the file that you created:
 
 ```plain
 vim new-file
@@ -12,7 +20,7 @@ vim new-file
 
 **Basic Search**
 
-Type `/` to enable search mode and type `li`
+Type `/` to enable search mode and type `li` and press enter
 
 You will notice that the cursor points out the nearest matching string
 

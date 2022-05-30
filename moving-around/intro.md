@@ -1,4 +1,4 @@
 
 <br>
 
-Basic Operations for using Vim effectively
+Moving around in Vim with keyboard shortcuts

@@ -1,7 +1,8 @@
 Vim lets you to navigate in a file by using keyboard shortcuts.
 
 When you master these shortcuts, you won't want to use any other command line editor.
-let's dive in!
+
+Let's dive in!
 
 &nbsp;
 
@@ -22,6 +23,8 @@ Vim has multiple nodes, but we will focus first to **normal mode**
 This mode is the default mode and it can always be activated by pressing `Esc`{{}}
 
 In Vim, almost all operation commands are performed in normal mode
+
+**Important Note:** you can undo whenever you need it in normal mode by pressing `u` 
 
 &nbsp;
 
