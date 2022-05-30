@@ -1,0 +1,23 @@
+{
+  "title": "Search and Replace",
+  "description": "Search and Replace Operations in Vim",
+  "details": {
+    "intro": {
+      "text": "intro.md",
+      "background": "background.sh"
+    },
+    "steps": [
+      {
+        "title": "Search in Vim",
+        "text": "step2/text.md"
+      },
+      {
+        "title": "Find and replace",
+        "text": "step3/text.md"
+      }
+    ]
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}

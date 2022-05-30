@@ -1,0 +1,23 @@
+{
+  "title": "Moving Around",
+  "description": "Moving around with keyboard shortcuts",
+  "details": {
+    "intro": {
+      "text": "intro.md",
+      "background": "background.sh"
+    },
+    "steps": [
+      {
+        "title": "Moving Around",
+        "text": "step1/text.md"
+      },
+      {
+        "title": "Keyboard Shortcuts",
+        "text": "step2/text.md"
+      }
+    ]
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}
