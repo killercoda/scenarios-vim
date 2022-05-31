@@ -1,6 +1,6 @@
 {
-  "title": "First Steps",
-  "description": "Learn the first steps with Vim",
+  "title": "Search and Replace",
+  "description": "Search and Replace Operations in Vim",
   "details": {
     "intro": {
       "text": "intro.md",
@@ -8,11 +8,11 @@
     },
     "steps": [
       {
-        "title": "Open, edit and close a file",
+        "title": "Search in Vim",
         "text": "step1/text.md"
       },
       {
-        "title": "Edit and close a file like a Vim master",
+        "title": "Find and replace",
         "text": "step2/text.md"
       }
     ]
