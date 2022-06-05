@@ -1,0 +1,23 @@
+{
+  "title": "Vim Modes - 2",
+  "description": "Text manipulation operations in Visual mode",
+  "details": {
+    "intro": {
+      "text": "intro.md",
+      "background": "background.sh"
+    },
+    "steps": [
+      {
+        "title": "Visual mode intro",
+        "text": "step1/text.md"
+      },
+      {
+        "title": "Visual Mode advanced operations",
+        "text": "step2/text.md"
+      }
+    ]
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}
