@@ -3,6 +3,8 @@
     { "path": "first-steps" },
     { "path": "moving-around" },
     { "path": "search-replace" },
+    { "path": "vim-modes-1" },
+    { "path": "vim-modes-2" },
     { "path": "cks-cka-ckad" }
   ]
 }

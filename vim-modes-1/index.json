@@ -1,0 +1,31 @@
+{
+  "title": "Vim Modes - 1",
+  "description": "Text manipulation operations in Normal & Insert modes",
+  "details": {
+    "intro": {
+      "text": "intro.md",
+      "background": "background.sh"
+    },
+    "steps": [
+      {
+        "title": "Vim modes",
+        "text": "step1/text.md"
+      },
+      {
+        "title": "Insert mode intro",
+        "text": "step2/text.md"
+      },
+      {
+        "title": "Text manipulations - Delete",
+        "text": "step3/text.md"
+      },
+      {
+        "title": "Text manipulations - Copy, Cut & Paste",
+        "text": "step4/text.md"
+      }
+    ]
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}
