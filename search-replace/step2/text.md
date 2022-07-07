@@ -52,7 +52,7 @@ Type `:5,10s/line/LINE/g` to replace all occurrences of `line` with `LINE`
 
 `.` (dot character) indicates the current line and `$` the last line
 
-Type `.$s/this/those/i` to replace all occurrences of `this` with `those` from the current line to the end of the file. `i` is added to ignore case in the search
+Type `:.,$s/this/those/i` to replace all occurrences of `this` with `those` from the current line to the end of the file. `i` is added to ignore case in the search
 
 &nbsp;
 
@@ -74,9 +74,9 @@ Type `:50` to get to line 50 and type `:.,+5s/this/That/i`
 
 This is particularly important when you are dealing with configuration files in linux
 
-Type `20,30s/^/# /` as `^` denotes the beginning of a line
+Type `:20,30s/^/# /` as `^` denotes the beginning of a line
 
-Type `20,30s/^# //` to uncomment them
+Type `:20,30s/^# //` to uncomment them
 
 
 
