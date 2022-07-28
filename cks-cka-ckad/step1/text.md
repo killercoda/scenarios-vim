@@ -1,4 +1,6 @@
 
+> The following settings **will already be configured** in your real exam environment in ~/.vimrc. But it can never hurt to be able to type these down
+
 We look at important Vim settings if you like to work with YAML during the K8s exams.
 
 
@@ -9,7 +11,7 @@ First create or open (if already exists) file `.vimrc`:
 vim ~/.vimrc
 ```{{exec}}
 
-Now enter (in insert-mode activated with `i`{{}}) the following lines, **you need to remember these**:
+Now enter (in insert-mode activated with `i`{{}}) the following lines:
 
 ```plain
 set expandtab
