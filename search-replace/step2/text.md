@@ -40,7 +40,7 @@ Type `%s/line/row/g` and notice that all occurrences of `line` have been replace
 
 To ignore case in your search, use the `i` flag:
 
-Type `:%s/this/that/gi` to replace all occurences of `this` case insensitively with `that`
+Type `:%s/this/that/gi` to replace all occurrences of `this` case insensitively with `that`
 
 &nbsp;
 
