@@ -18,7 +18,7 @@ Open the file that you created:
 vim new-file
 ```{{exec}}
 
-Vim has multiple nodes, but we will focus first to **normal mode**
+Vim has multiple modes, but we will focus first to **normal mode**
 
 This mode is the default mode and it can always be activated by pressing `Esc`{{}}
 
