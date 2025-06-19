@@ -52,7 +52,7 @@ You can also press `#` (hash) to search backwards
 
 **Ignore Case**
 
-By default search is case-insensitive. It is possible to ignore case in a search by adding `\c` to the end of your search string
+By default search is case-sensitive. It is possible to ignore case in a search by adding `\c` to the end of your search string
 
 Type `/` to enable search mode and type `this`
 
